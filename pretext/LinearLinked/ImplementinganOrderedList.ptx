@@ -348,7 +348,7 @@ int main() {
     <exercise label="LinkedListMChoice">
         <statement>
 
-            <p>Q-3: After having read over unordered and ordered linked lists, what do you think a circular linked list would do differently from an ordered or unordered linked list? (Hint: think about the example from the beginning of the chapter.)</p>
+            <p>After having read over unordered and ordered linked lists, what do you think a circular linked list would do differently from an ordered or unordered linked list? (Hint: think about the example from the beginning of the chapter.)</p>
 
         </statement>
 <choices>

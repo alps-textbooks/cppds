@@ -48,7 +48,7 @@
                     from this chapter. What is the difference in execution speed?</p>
             </li>
             <li>
-                <p>Implement the bubble sort using simultaneous assignment.</p>
+                <p>Implement the bubble sort using the standard library function <c>swap</c>.</p>
             </li>
             <li>
                 <p>A bubble sort can be modified to <q>bubble</q> in both directions. The
@@ -58,7 +58,7 @@
                     circumstances it might be appropriate.</p>
             </li>
             <li>
-                <p>Implement the selection sort using simultaneous assignment.</p>
+                <p>Implement the selection sort using the standard library function <c>swap</c>.</p>
             </li>
             <li>
                 <p>Perform a benchmark analysis for a shell sort, using different

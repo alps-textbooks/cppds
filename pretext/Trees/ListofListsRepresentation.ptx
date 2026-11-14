@@ -160,7 +160,7 @@ main()
     <exercise label="mctree_1">
         <statement>
 
-            <p>Q-3: Given the following statements:</p>
+            <p>Given the following statements:</p>
             <program language="python" label="ListofListsRepresentation-prog"><input>
 x = BinaryTree('a')
 insertLeft(x,'b')

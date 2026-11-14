@@ -210,12 +210,12 @@ int main() {
     <statement><p>Click on the cause of a syntax error in the following code.</p></statement>
 <feedback><p>Remember how we declare variables</p></feedback>
 <areas>
-<cline><area correct="yes">deque&lt;int&gt; d;</area>:</cline>
-<cline><area>d.push_back("Zebra");</area>:</cline>
-<cline><area>d.push_front("Turtle");</area>:</cline>
-<cline><area>d.push_front("Panda");</area>:</cline>
-<cline><area>d.push_back("Catfish");</area>:</cline>
-<cline><area>d.push_back("Giraffe");</area>:</cline>
+<cline><area correct="yes">deque&lt;int&gt; d;</area></cline>
+<cline><area correct="no">d.push_back("Zebra");</area></cline>
+<cline><area correct="no">d.push_front("Turtle");</area></cline>
+<cline><area correct="no">d.push_front("Panda");</area></cline>
+<cline><area correct="no">d.push_back("Catfish");</area></cline>
+<cline><area correct="no">d.push_back("Giraffe");</area></cline>
 </areas></exercise>
 
     <exercise label="structureefficiency">

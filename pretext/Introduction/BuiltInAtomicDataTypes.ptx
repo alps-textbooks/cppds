@@ -707,7 +707,7 @@ ptrN = &amp;varN;</pre>
       <p>In other words, <c>varN</c> and <c>*ptrN</c> (note the asterisk in front!) reference the same
                     value in the code above.</p>
       <p>Let<rsq/>s extend the example above to output the value of a variable and its address
-                    in memory: <ellipsis/> _dereferencing.</p>
+                    in memory:</p>
       <blockquote>
         <program xml:id="firstptr" interactive="activecode" language="cpp" label="firstptr-prog">
           <input>
@@ -721,7 +721,7 @@ int main( ) {
 
     cout &lt;&lt; "varN value: " &lt;&lt; varN &lt;&lt; endl;
     cout &lt;&lt; "varN location: " &lt;&lt; ptrN &lt;&lt; endl;
-    cout &lt;&lt; "dereference ptrN: " &lt;&lt; *ptrN &lt;&lt; "endl";
+    cout &lt;&lt; "dereference ptrN: " &lt;&lt; *ptrN &lt;&lt; endl;
 
 
     return 0;

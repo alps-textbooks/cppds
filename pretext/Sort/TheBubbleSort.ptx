@@ -33,10 +33,11 @@ alist[i] = alist[j];
 alist[j] = temp;</pre>
         <p>will exchange the <title_reference>ith</title_reference> and <title_reference>jth</title_reference> items in the array. Without the
             temporary storage, one of the values would be overwritten.</p>
-        <p>Lines 5-7 in <xref ref="lst-bubble-cpp"/> perform the exchange of the <m>i</m> and
+        <p>Lines 11-13 in <xref ref="lst-bubble-cpp"/> perform the exchange of the <m>i</m> and
             <m>(i+1)th</m> items using the three<ndash/>step procedure described
-            earlier. Note that we could also have used the simultaneous assignment
-            to swap the items.</p>
+            earlier. Note that we could also have used the standard library function
+            <c>swap</c>, as in <c>swap(avector[i], avector[i+1]);</c>, to swap the items.
+            In Python, simultaneous assignment does the same job, as the figure below shows.</p>
         
         <figure align="center" xml:id="fig-pythonswap">
             <caption>Exchanging Two Values in Python.</caption>
@@ -175,7 +176,7 @@ main()
             for the smaller block and then reset for another pass.</p>
 
         <figure xml:id="sort_bubble-video">
-            <caption>Video of <c>insertionSort</c> in action.</caption>
+            <caption>Video of <c>bubbleSort</c> in action.</caption>
             <video label="sort_bubble_sort-video" source="Sort/vis_bubble_sort.webm" width="80%" preview="Sort/vis_bubble_sort_thumb.png" />
         </figure>
         

@@ -57,28 +57,28 @@
                             <c>s.empty()</c>
                         </cell>
                         <cell>
-                            <c>[]</c>
+                            <c>{}</c>
                         </cell>
                         <cell>
-                            <c>1</c>
-                        </cell>
-                    </row>
-                    <row>
-                        <cell>
-                            <c>s.push('horse')</c>
-                        </cell>
-                        <cell>
-                            <c>['horse']</c>
-                        </cell>
-                        <cell>
+                            <c>true</c>
                         </cell>
                     </row>
                     <row>
                         <cell>
-                            <c>s.push('dog')</c>
+                            <c>s.push("horse")</c>
                         </cell>
                         <cell>
-                            <c>['horse','dog']</c>
+                            <c>{"horse"}</c>
+                        </cell>
+                        <cell>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>
+                            <c>s.push("dog")</c>
+                        </cell>
+                        <cell>
+                            <c>{"horse", "dog"}</c>
                         </cell>
                         <cell>
                         </cell>
@@ -88,18 +88,18 @@
                             <c>s.top()</c>
                         </cell>
                         <cell>
-                            <c>['horse','dog']</c>
+                            <c>{"horse", "dog"}</c>
                         </cell>
                         <cell>
-                            <c>'dog'</c>
+                            <c>"dog"</c>
                         </cell>
                     </row>
                     <row>
                         <cell>
-                            <c>s.push('cat')</c>
+                            <c>s.push("cat")</c>
                         </cell>
                         <cell>
-                            <c>['horse','dog','cat']</c>
+                            <c>{"horse", "dog", "cat"}</c>
                         </cell>
                         <cell>
                         </cell>
@@ -109,7 +109,7 @@
                             <c>s.size()</c>
                         </cell>
                         <cell>
-                            <c>['horse','dog','cat']</c>
+                            <c>{"horse", "dog", "cat"}</c>
                         </cell>
                         <cell>
                             <c>3</c>
@@ -120,28 +120,18 @@
                             <c>s.empty()</c>
                         </cell>
                         <cell>
-                            <c>['horse','dog','cat']</c>
+                            <c>{"horse", "dog", "cat"}</c>
                         </cell>
                         <cell>
-                            <c>0</c>
-                        </cell>
-                    </row>
-                    <row>
-                        <cell>
-                            <c>s.push('turtle')</c>
-                        </cell>
-                        <cell>
-                            <c>['horse','dog','cat','turtle']</c>
-                        </cell>
-                        <cell>
+                            <c>false</c>
                         </cell>
                     </row>
                     <row>
                         <cell>
-                            <c>s.pop()</c>
+                            <c>s.push("turtle")</c>
                         </cell>
                         <cell>
-                            <c>['horse','dog','cat']</c>
+                            <c>{"horse", "dog", "cat", "turtle"}</c>
                         </cell>
                         <cell>
                         </cell>
@@ -151,7 +141,17 @@
                             <c>s.pop()</c>
                         </cell>
                         <cell>
-                            <c>['horse','dog']</c>
+                            <c>{"horse", "dog", "cat"}</c>
+                        </cell>
+                        <cell>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>
+                            <c>s.pop()</c>
+                        </cell>
+                        <cell>
+                            <c>{"horse", "dog"}</c>
                         </cell>
                         <cell>
                         </cell>
@@ -161,7 +161,7 @@
                             <c>s.size()</c>
                         </cell>
                         <cell>
-                            <c>['horse','dog']</c>
+                            <c>{"horse", "dog"}</c>
                         </cell>
                         <cell>
                             <c>2</c>
