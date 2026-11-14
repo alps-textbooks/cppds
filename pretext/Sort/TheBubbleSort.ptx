@@ -276,7 +276,7 @@ using namespace std;
 
 vector&lt;int&gt; shortBubbleSort(vector&lt;int&gt; avector){ //the vector for bubble sort
     bool exchanges = true;
-    int passnum = avector.size();
+    int passnum = avector.size() - 1;
     //while vector size is greater than 0 and exchanges = true
     while (passnum &gt; 0 &amp;&amp; exchanges) {
         exchanges = false;
@@ -394,7 +394,7 @@ print(alist)
 
             <choice>
                 <statement>
-                    <p>[1, 9, 19, 7, 3, 10, 13, 15, 8, 12]</p>
+                    <p>[1, 7, 9, 19, 3, 10, 13, 15, 8, 12]</p>
                 </statement>
                 <feedback>
                     <p>You have been doing an insertion sort, not a bubble sort.</p>

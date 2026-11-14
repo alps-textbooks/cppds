@@ -440,7 +440,7 @@ main()
             <title>Evaluating A Parse Tree</title>
             <task xml:id="lst-eval-cpp" label="lst-eval-cpp">
                 <title>C++ Implementation</title>
-                <statement><program xml:id="prog-eval-cpp" interactive="activecode" language="cpp" label="prog-eval-cpp-prog"><input>
+                <statement><program xml:id="prog-eval-cpp" language="cpp" label="prog-eval-cpp-prog"><input>
 class Operator {
     public:
         int add(int x, int y){

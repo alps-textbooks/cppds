@@ -116,7 +116,7 @@ public:
     }
 
     bool isEmpty(){
-        if (this-&gt;heapvector.size()&gt;0){
+        if (this-&gt;currentSize&gt;0){
             return false;
         }
         return true;
@@ -212,7 +212,7 @@ class BinHeap:
             i -= 1
 
     def isEmpty(self):
-        if len(self.heaparray) &gt; 0:
+        if self.size &gt; 0:
             return False;
         return True
 

@@ -509,7 +509,7 @@ int main(){
                 </task>
                 <task xml:id="introduction_lst-addmethod-py-usage" label="introduction_lst-addmethod-py-usage">
                     <title>Python Usage Example</title>
-                    <statement><program xml:id="addfrac_py" label="addfrac_py" language="python" interactive="activecode"><input>
+                    <statement><program xml:id="addfrac_py" label="addfrac_py" language="python"><input>
 f1=Fraction(1,4)
 f2=Fraction(1,2)
 f3=f1+f2

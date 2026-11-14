@@ -736,7 +736,7 @@ int main( ) {
         <choices>
           <choice>
             <statement>
-              <p>varPntr: 100</p>
+              <p>100</p>
             </statement>
             <feedback>
               <p>Not quite, the variable varN no longer equals 100 past line 7!</p>
@@ -744,7 +744,7 @@ int main( ) {
           </choice>
           <choice correct="yes">
             <statement>
-              <p>varPntr: 50</p>
+              <p>50</p>
             </statement>
             <feedback>
               <p>Right!</p>
@@ -752,7 +752,7 @@ int main( ) {
           </choice>
           <choice>
             <statement>
-              <p>varPntr: 150</p>
+              <p>150</p>
             </statement>
             <feedback>
               <p>No, the values do not add together!</p>

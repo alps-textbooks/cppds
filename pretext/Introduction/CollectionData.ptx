@@ -988,7 +988,7 @@ int main(){
                     <title>Reading Questions</title>
 
     <exercise label="matching_ht">
-        <statement><p> Match the Hash Table operations with their corresponding explination.</p></statement>
+        <statement><p> Match the Hash Table operations with their corresponding explanation.</p></statement>
         <feedback><p>Feedback shows incorrect matches.</p></feedback>
         <matches>
             <match order="1">
@@ -1185,7 +1185,7 @@ int main(){
 
 </exercise>
 <exercise label="matching_vectors">
-    <statement><p> Match the Vector operations with their corresponding explination.</p></statement>
+    <statement><p> Match the Vector operations with their corresponding explanation.</p></statement>
     <feedback><p>Feedback shows incorrect matches.</p></feedback>
 <matches>
 
@@ -1196,13 +1196,13 @@ int main(){
 </matches></exercise>               
 
 <exercise label="matching_vectors2">
-    <statement><p>Match the Vector operations with their corresponding explination.</p></statement>
+    <statement><p>Match the Vector operations with their corresponding explanation.</p></statement>
     <feedback><p>Feedback shows incorrect matches.</p></feedback>
 <matches>
 <match order="1"><premise>insert</premise><response>Injects an item into the vector.</response></match>
-<match order="2"><premise>erase</premise><response>Deletes an element from the choosen index.</response></match>
+<match order="2"><premise>erase</premise><response>Deletes an element from the chosen index.</response></match>
 <match order="3"><premise>size</premise><response>Returns the actual capacity used by elements.</response></match>
-<match order="4"><premise>capacity</premise><response>Returns the ammount of allocated storage space.</response></match>
+<match order="4"><premise>capacity</premise><response>Returns the amount of allocated storage space.</response></match>
 <match order="5"><premise>reserve</premise><response> Request a change in space to amount.</response></match>
 
 </matches></exercise> 
@@ -1368,7 +1368,7 @@ int main(){
     <feedback><p>Feedback shows incorrect matches.</p></feedback>
 <matches><match order="1"><premise>char</premise><response>'a'</response></match><match order="2"><premise>char array</premise><response>{'a'}</response></match><match order="3"><premise>string</premise><response>"a"</response></match></matches></exercise>
 <exercise label="matching_HT">
-    <statement><p> Match the Hash Table operations with their corresponding explination.</p></statement>
+    <statement><p> Match the Hash Table operations with their corresponding explanation.</p></statement>
     <feedback><p>Feedback shows incorrect matches.</p></feedback>
 <matches><match order="1"><premise>[ ]</premise><response>Returns the value associated with the key, otherwise throws error.</response></match><match order="2"><premise>erase</premise><response>Deletes the entry from the hash table.</response></match><match order="3"><premise>count</premise><response>Returns true if key is in the hash table, and false otherwise.</response></match><match order="4"><premise>begin</premise><response>An iterator to the first element in the hash table.</response></match><match order="5"><premise>end</premise><response>An iterator pointing to past-the-end element of the hash table.</response></match></matches></exercise> 
 </reading-questions>
