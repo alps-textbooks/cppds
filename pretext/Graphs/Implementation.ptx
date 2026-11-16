@@ -122,6 +122,7 @@ class Graph {
             }
             if (!this-&gt;contains(t)) {
                 cout &lt;&lt; t &lt;&lt; " was not found, adding!" &lt;&lt; endl;
+                this-&gt;addVertex(t);
             }
             vertList[f].addNeighbor(t, cost);
         }
@@ -272,6 +273,7 @@ public:
                 }
                 if (!this-&gt;contains(t)) {
                         cout &lt;&lt; t &lt;&lt; " was not found, adding!" &lt;&lt; endl;
+                        this-&gt;addVertex(t);
                 }
                 vertList[f].addNeighbor(t, cost);
         }

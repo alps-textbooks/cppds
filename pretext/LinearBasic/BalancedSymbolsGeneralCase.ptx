@@ -170,35 +170,35 @@ main()
     <statement><p>Using the program below, click on the line of code that adds an open parenthesis to the stack.</p></statement>
     <feedback><p>Remember that the function to do this would be the push function.</p></feedback>
     <areas>
-      <cline><area correct="no">bool parChecker(string symbolString){</area>:</cline>
-      <cline>      <area correct="no">stack&lt;string&gt; s;</area>:</cline>
-      <cline>      <area correct="no">bool balanced = true;</area>:</cline>
-      <cline>      <area correct="no">int index = 0;</area>:</cline>
-      <cline>      <area correct="no">int symbolLength = symbolString.length();</area>:</cline>
+      <cline><area correct="no">bool parChecker(string symbolString){</area></cline>
+      <cline>      <area correct="no">stack&lt;string&gt; s;</area></cline>
+      <cline>      <area correct="no">bool balanced = true;</area></cline>
+      <cline>      <area correct="no">int index = 0;</area></cline>
+      <cline>      <area correct="no">int symbolLength = symbolString.length();</area></cline>
       <cline/>
-      <cline>      <area correct="no">while(index &lt; symbolLength &amp;&amp; balanced){</area>:</cline>
-      <cline>          <area correct="no">string symbol;</area>:</cline>
-      <cline>          <area correct="no">symbol = symbolString[index];</area>:</cline>
-      <cline>          <area correct="no">string opens = "({[";</area>:</cline>
-      <cline>          <area correct="no">if (inString(symbol, opens)){</area>:</cline>
-      <cline>              <area correct="yes">s.push(symbol);</area>:</cline> <!-- Correct line -->
+      <cline>      <area correct="no">while(index &lt; symbolLength &amp;&amp; balanced){</area></cline>
+      <cline>          <area correct="no">string symbol;</area></cline>
+      <cline>          <area correct="no">symbol = symbolString[index];</area></cline>
+      <cline>          <area correct="no">string opens = "({[";</area></cline>
+      <cline>          <area correct="no">if (inString(symbol, opens)){</area></cline>
+      <cline>              <area correct="yes">s.push(symbol);</area></cline> <!-- Correct line -->
       <cline>          } else {</cline>
-      <cline>              <area correct="no">if (s.empty()){</area>:</cline>
-      <cline>                  <area correct="no">balanced = false;</area>:</cline>
+      <cline>              <area correct="no">if (s.empty()){</area></cline>
+      <cline>                  <area correct="no">balanced = false;</area></cline>
       <cline>              } else {</cline>
-      <cline>                  <area correct="no">string top = s.top();</area>:</cline>
-      <cline>                  <area correct="no">s.pop();</area>:</cline>
-      <cline>                  <area correct="no">if (!matches(top, symbol)){</area>:</cline>
-      <cline>                      <area correct="no">balanced = false;</area>:</cline>
+      <cline>                  <area correct="no">string top = s.top();</area></cline>
+      <cline>                  <area correct="no">s.pop();</area></cline>
+      <cline>                  <area correct="no">if (!matches(top, symbol)){</area></cline>
+      <cline>                      <area correct="no">balanced = false;</area></cline>
       <cline>                  }</cline>
       <cline>              }</cline>
       <cline>          }</cline>
-      <cline>          <area correct="no">index = index + 1;</area>:</cline>
+      <cline>          <area correct="no">index = index + 1;</area></cline>
       <cline>      }</cline>
-      <cline>      <area correct="no">if(balanced &amp;&amp; s.empty()){</area>:</cline>
-      <cline>          <area correct="no">return true;</area>:</cline>
+      <cline>      <area correct="no">if(balanced &amp;&amp; s.empty()){</area></cline>
+      <cline>          <area correct="no">return true;</area></cline>
       <cline>      } else {</cline>
-      <cline>          <area correct="no">return false;</area>:</cline>
+      <cline>          <area correct="no">return false;</area></cline>
       <cline>      }</cline>
       <cline>  <area correct="no">}</area></cline>
     </areas>

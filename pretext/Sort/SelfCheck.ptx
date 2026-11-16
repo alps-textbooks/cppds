@@ -28,7 +28,7 @@
         <feedback><p>Refer to previous sections of the chapter</p></feedback>
         <matches>
             <match order="1"><premise>Quick Sort</premise><response><m>O(n \log n)</m> or <m>O(n^2)</m></response></match>
-            <match order="2"><premise>Insertion/Bubble/Merge</premise><response><m>O(n^2)</m></response></match>
+            <match order="2"><premise>Insertion/Bubble/Selection</premise><response><m>O(n^2)</m></response></match>
             <match order="3"><premise>Merge Sort</premise><response><m>O(n \log n)</m></response></match>
             <match order="4"><premise>Shell Sort</premise><response>between <m>O(n)</m> and <m>O(n^2)</m></response></match>
         </matches>

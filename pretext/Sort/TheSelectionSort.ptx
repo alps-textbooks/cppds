@@ -87,7 +87,7 @@ main()
         and blue represents the last element to look at during a step.</p>
 
     <figure xml:id="sort_selectionsort-animation">
-        <caption>Selection esort animation.</caption>
+        <caption>Selection sort animation.</caption>
         <interactive platform="javascript" source="Sort/sortmodels.js" width="100%" aspect="10:8">
             <sidebyside width="90%">
                 <slate aspect="10:6" xml:id="selection_anim_canvas" surface="canvas"/>

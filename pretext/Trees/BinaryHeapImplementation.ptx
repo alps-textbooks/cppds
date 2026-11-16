@@ -441,7 +441,7 @@ public:
     }
 
     bool isEmpty(){
-        if (this-&gt;heapvector.size()&gt;0){
+        if (this-&gt;currentSize&gt;0){
             return false;
         }
         return true;

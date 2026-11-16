@@ -165,8 +165,8 @@ main()
             parentheses is balanced. Note that the Boolean variable <c>balanced</c> is
             initialized to <c>true</c> as there is no reason to assume otherwise at the
             start. If the current symbol is <c>(</c>, then it is pushed on the stack
-            (lines 15-16). Note also in line 22 that <c>pop</c> removes a symbol
-            from the stack. At the end (lines 28-31), as long as the
+            (lines 17-18). Note also in line 25 that <c>pop</c> removes a symbol
+            from the stack. At the end (lines 31-36), as long as the
             expression is balanced and the stack has been completely emptied,
             the string represents a correctly balanced sequence of parentheses.</p>
         <p>
