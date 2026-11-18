@@ -60,9 +60,9 @@ bool inString(string symbol, string symbols){
 //returns true if the symbol in "open"
 //matches the symbol in "close"
 bool matches(string open, string close){
-    string opens = "({[";
+    string opens = "([{";
     string closers = ")]}";
-    bool val = inString(open, opens) == inString(close, closers);
+    bool val = opens.find(open) == closers.find(close);
     return val;
 }
 
